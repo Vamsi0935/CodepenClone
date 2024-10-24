@@ -1,0 +1,36 @@
+.main {
+    background-color: #2f3640;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 1%;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.left {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
